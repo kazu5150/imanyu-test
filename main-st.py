@@ -15,7 +15,7 @@ st.write("DataFrame")
 tokyo_latlon = [35.69,139.70]
 
 df = pd.DataFrame(
-    np.random.randn(1000,2)/[50,50] + tokyo_latlon,
+    np.random.randn(1000,2)/[10,10] + tokyo_latlon,
     columns=["lat","lon"]
 )
 
